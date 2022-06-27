@@ -48,7 +48,7 @@ print(' |  ___/ | | | | | | |_ \|  _/ _ \                              ')
 print(' | |   | |_| |_| |_| | | | || (_) |                             ')
 print(' |_|    \__, |_____|_| |_|_| \___/   https://pyinfo.nelsongx.com')
 print('         __/ |                                                  ')
-print('        |___/            v1.1.0                                 ')
+print('        |___/            v1.1.2                                 ')
 print('\n\n')
 print('# Please enter 1 for English, 請輸入 2 以使用中文')
 a = 0
