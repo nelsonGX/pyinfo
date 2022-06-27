@@ -30,6 +30,7 @@ from datetime import datetime
 import GPUtil
 import cpuinfo
 import re
+import time
 
 # -h
 def get_size(bytes, suffix="B"):
@@ -299,5 +300,7 @@ if a == '2':
 print('\n'*3)
 print('='*10)
 print('')
-print('# 已列印完成系統資訊。')
-exit()
+print('# 已列印完成系統資訊。輸入任何文字以繼續...')
+b = 0
+while b == 0:
+    b = str(input())
